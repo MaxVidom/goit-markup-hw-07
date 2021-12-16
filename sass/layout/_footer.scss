@@ -1,0 +1,126 @@
+.footer {
+  background-color: var(--bg-main-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-logo-color);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-address-color);
+  margin-bottom: 9px;
+}
+
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-address-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-item:first-child {
+  margin-bottom: 9px;
+}
+
+.footer-join-list {
+  display: flex;
+}
+
+.footer-join-item {
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.footer-left {
+  margin-right: 70px;
+}
+
+.footer-join {
+  padding-top: 12px;
+  margin-right: 93px;
+}
+
+.footer-join-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-address-color);
+  margin-bottom: 20px;
+}
+
+.footer-join-link {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
+}
+
+.join-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--second-icon-color);
+}
+
+.footer-subscription {
+  width: 570px;
+  padding-top: 12px;
+}
+
+.subscription-wrap {
+  display: flex;
+}
+
+.footer-input {
+  height: 50px;
+  width: 100%;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--btn-text-color);
+
+  padding: 15px;
+}
+
+.subscription-btn {
+  background-color: var(--accent-color);
+  color: var(--btn-text-color);
+}
+
+.subscription-icon {
+  vertical-align: middle;
+  margin-left: 10px;
+}

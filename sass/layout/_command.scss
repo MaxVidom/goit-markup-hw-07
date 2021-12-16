@@ -1,0 +1,77 @@
+.command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--third-bg-color);
+}
+
+.command-title {
+  margin-bottom: 50px;
+}
+
+.command-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.command-item {
+  width: calc((100% - 3 * 30px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--main-bg-color);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.command-block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.command-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+
+  margin-bottom: 10px;
+}
+
+.command-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+.command-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.command-social-item {
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.command-social-link {
+  background-color: var(--main-bg-color);
+  color: var(--main-icon-color);
+  border-radius: 50%;
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--second-icon-color);
+  }
+}
+
+.command-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
