@@ -4,16 +4,16 @@
   background-color: var(--third-bg-color);
 }
 
-.command-title {
+.command__title {
   margin-bottom: 50px;
 }
 
-.command-list {
+.people-list {
   display: flex;
   justify-content: space-between;
 }
 
-.command-item {
+.people-list__item {
   width: calc((100% - 3 * 30px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -21,12 +21,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.command-block {
+.people-list__wrap {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.command-name {
+.people-list__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -37,7 +37,7 @@
   margin-bottom: 10px;
 }
 
-.command-text {
+.people-list__text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -46,32 +46,15 @@
   margin-bottom: 16px;
 }
 
-.command-social-list {
-  display: flex;
+.people-list__social-list {
   justify-content: center;
 }
 
-.command-social-item {
-  width: 44px;
-  height: 44px;
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
-}
-
-.command-social-link {
+.social-list__link--grey {
   background-color: var(--main-bg-color);
   color: var(--main-icon-color);
-  border-radius: 50%;
-  &:focus,
-  &:hover {
-    background-color: var(--accent-color);
-    color: var(--second-icon-color);
-  }
 }
 
-.command-social-icon {
-  width: 20px;
-  height: 20px;
+.social-list__icon--current {
   fill: currentColor;
 }

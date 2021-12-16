@@ -6,10 +6,13 @@
 .portfolio-list-button {
   display: flex;
   justify-content: center;
+}
+
+.portfolio__portfolio-list-button {
   margin-bottom: 50px;
 }
 
-.portfolio-btn {
+.portfolio-list-button__btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -33,7 +36,7 @@
   }
 }
 
-.portfolio-btn-item:not(:last-child) {
+.portfolio-list-button__item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -44,7 +47,7 @@
   margin-right: -15px;
 }
 
-.portfolio-item {
+.portfolio-list__item {
   width: calc((100% - 3 * 30px) / 3);
   margin-left: 15px;
   margin-right: 15px;
@@ -59,12 +62,12 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  &:hover .portfolio-link-text {
+  &:hover .portfolio-list__text {
     transform: translate(0);
   }
 }
 
-.portfolio-down {
+.portfolio-list__down {
   padding-top: 20px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
@@ -72,7 +75,7 @@
   padding-bottom: 20px;
 }
 
-.portfolio-title {
+.portfolio-list__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -81,19 +84,19 @@
   margin-bottom: 4px;
 }
 
-.portfolio-text {
+.portfolio-list__name {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
-.portfolio-link-wrap {
+.portfolio-list__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-link-text {
+.portfolio-list__text {
   position: absolute;
   background-color: rgba(33, 150, 243, 0.9);
   top: 0;
